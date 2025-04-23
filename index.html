@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order System</title>
+    <link rel="stylesheet" href="./style/style2.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo"><img class="logo-img" src="./photo/logo.png" /></a>
+
+        <ul class="navmenu">
+            <li><a href="#">home</a></li>
+            <li><a href="#">shop</a></li>
+            <li><a href="#">products</a></li>
+            <li><a href="#">page</a></li>
+            <li><a href="#">docs</a></li>
+        </ul>
+        <div class="nav-icon">
+            <a href="#"><img src="./photo/bx-search.svg" alt="search-icon" /></a>
+            <a href="#"><img src="./photo/bx-user.svg" alt="user-icon" /></a>
+            <a href="#"><img src="./photo/bx-cart.svg" alt="cart-icon" /></a>
+            <div id="menu-icon"><img src="./photo/bx-menu.svg" alt="menu-icon" /></div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>Food Order System</h1>
+
+        <div class="menu">
+            <h2>Menu</h2>
+            <div class="menu-items">
+                <div class="item" data-name="Dinch" data-price="60">
+                    <h3>Dinch</h3>
+                    <p>60</p>
+                    <button class="add-to-cart">Add</button>
+                </div>
+                <div class="item" data-name="Misir" data-price="65">
+                    <h3>Misir</h3>
+                    <p>65</p>
+                    <button class="add-to-cart">Add</button>
+                </div>
+                <div class="item" data-name="Firfir" data-price="60">
+                    <h3>Firfir</h3>
+                    <p>60</p>
+                    <button class="add-to-cart">Add</button>
+                </div>
+                <div class="item" data-name="shiro" data-price="50">
+                    <h3>shiro</h3>
+                    <p>50</p>
+                    <button class="add-to-cart">Add</button>
+                </div>
+                <div class="item" data-name="buna " data-price="15">
+                    <h3>buna</h3>
+                    <p>15</p>
+                    <button class="add-to-cart">Add</button>
+                </div>
+                <div class="item" data-name="juce  " data-price="35">
+                    <h3>juce</h3>
+                    <p>35</p>
+                    <button class="add-to-cart">Add</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Shopping Cart -->
+        <div class="cart">
+            <h2>Your Order</h2>
+            <div class="cart-items">
+                <!-- Items will appear here -->
+            </div>
+            <div class="cart-total">
+                <strong>Total: <span id="total-price">0.00</span></strong>
+            </div>
+            <button id="cancel-all">🚫 Cancel All</button>
+            <button id="place-order">✅ Place Order</button>
+        </div>
+    </div>
+
+
+    <div class="next_challenge">
+        <a href="second.html" class="challenge">Next Challenge</a>
+    </div>
+
+
+    <script src="first.js"></script>
+</body>
+
+</html>

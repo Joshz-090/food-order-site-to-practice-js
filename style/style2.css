@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #fff;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    padding: 0px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 25px black;
+}
+
+.logo {
+    max-width: 120px;
+    height: auto;
+}
+
+.logo-img {
+    height: 100%;
+    width: 100%;
+}
+
+.navmenu {
+    display: flex;
+}
+
+.navmenu a {
+    color: rgb(44, 110, 240);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    transition: all 0.42s ease;
+}
+
+.navmenu a:hover {
+    color: rgba(235, 25, 60, 0.652);
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon img {
+    margin-right: 20px;
+    transition: all 0.42s ease;
+}
+
+.nav-icon img:hover {
+    transform: scale(1.3);
+}
+
+#menu-icon {
+    font-size: 35px;
+    z-index: 10001;
+    cursor: pointer;
+}
+
+section {
+    padding: 5% 5%;
+}
+
+.main-home {
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(1fr, 1fr);
+    align-items: center;
+}
+
+.main-text h1 {
+    position: relative;
+    color: black;
+    font-size: 55px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+    z-index: 10px;
+}
+
+.main-text p {
+    position: relative;
+    color: gray;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+    z-index: 10px;
+}
+
+.main-btn {
+    display: inline-block;
+    background: #a90e0e92;
+    border-radius: 30px;
+    border-style: solid;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    transition: all 0.42s ease;
+}
+
+.main-btn:hover {
+    background: #ff6b6ba9;
+    color: white;
+    transform: scale(1.05);
+}
+
+#bg-food {
+    height: 500px;
+    width: 500px;
+    background-image: url("./photo/imgs\ \(6\).png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 19%;
+    left: 55%;
+    transform: translate(0 -50%);
+    z-index: -1;
+}
+
+.down-arrow {
+    position: absolute;
+    top: 90%;
+    right: 50%;
+}
+
+.down img {
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.down-arrow:hover {
+    background: rgba(252, 128, 128, 0.477);
+    border-radius: 25px;
+}
+
+.center-text h2 {
+    color: black;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.center-text span {
+    color: rgb(216, 43, 75);
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+    gap: 55px;
+    font-size: 17px;
+    margin-top: 70px;
+}
+
+.fi-in {
+    margin-top: -1000px;
+    margin-left: -60px;
+    width: 300px;
+    height: auto;
+}
+
+.contact-info h4 {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    color: rgba(53, 51, 51, 0.864);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.contact-info p:hover {
+    color: #ee1c47;
+}
+
+.social-icon img {
+    margin-right: 10px;
+    transition: all 0.42s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.5);
+}
+
+.end-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.end-text p {
+    color: black;
+    text-transform: capitalize;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .navmenu {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navmenu {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+}
