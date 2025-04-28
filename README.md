@@ -22,14 +22,14 @@ This site is made for **students, beginners, or self-learners** who want to impr
 ## 📁 Folder Structure
 
 food-order-site-to-practice-js/ 
-─ index.html  Challenge 1 
-─ second.html  Challenge 2 
-─ third.html # Challenge 3 
-─ forth.html # Challenge 4 
-─ advance.html # Final Advanced Challenge 
-─ style/ # CSS files 
-─ photo/ # Icons and images 
-─ *.js # JavaScript logic files
+ index.html  Challenge 1 
+ second.html  Challenge 2 
+ third.html # Challenge 3 
+ forth.html # Challenge 4 
+ advance.html # Final Advanced Challenge 
+ style/ # CSS files 
+ photo/ # Icons and images 
+ *.js # JavaScript logic files
 
 
 ---
