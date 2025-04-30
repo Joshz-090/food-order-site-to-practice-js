@@ -26,8 +26,8 @@ food-order-site-to-practice-js/
  |-second.html  Challenge 2 
  |-third.html # Challenge 3 
  |-forth.html # Challenge 4 
- -advance.html # Final Advanced Challenge 
- -style/ # CSS files 
+ |-advance.html # Final Advanced Challenge 
+ |-style/ # CSS files 
  -photo/ # Icons and images 
  -*.js # JavaScript logic files
 
