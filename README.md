@@ -60,6 +60,7 @@ Try it online here:
 - Functions and Scope
 - Dynamic rendering and updates
 
+
 ---
 
 ## 🙌 Contributing
