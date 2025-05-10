@@ -1,6 +1,6 @@
 # 🍔 JavaScript Practice Challenges – Food Ordering Theme
 
-Welcome to this JavaScript practice project! This site helps you **learn JavaScript step-by-step**, starting from beginner level and moving up to advanced concepts — all through fun food-related challenges. 🍕🍟🍩
+***Welcome*** to this JavaScript practice project! This site helps you **learn JavaScript step-by-step**, starting from beginner level and moving up to advanced concepts — all through fun food-related challenges. 🍕🍟🍩
 
 ---
 
