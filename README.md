@@ -81,4 +81,4 @@ If this helped you, star the repo ⭐ and share it with your coding buddies!.�
 
 ---
 
-Happy coding! 🧠💻1
+Happy coding!  🧠💻
