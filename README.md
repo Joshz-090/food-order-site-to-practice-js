@@ -46,7 +46,7 @@ food-order-site-to-practice-js/
 ## 🌐 Live Demo
 
 Try it online here:  
-🔗 [GitHub Pages Version](https://joshz-090.github.io/food-order-site-to-practice-js/)
+🔗 [here](https://joshz-090.github.io/food-order-site-to-practice-js/)
 
 ---
 
