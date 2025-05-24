@@ -77,7 +77,7 @@ Feel free to fork and open a Pull Request!
 
 ## 📬 Contact
 
-Created by [Joshz-090](https://github.com/Joshz-090)  
+Created by [Eyasu Zerihun  or Joshz-090](https://github.com/Joshz-090)  
 If this helped you, star the repo ⭐ and share it with your coding buddies!.🥰
 
 ---
