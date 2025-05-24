@@ -59,6 +59,7 @@ Try it online here:
 - Arrays and Objects
 - Functions and Scope
 - Dynamic rendering and updates
+- Python 
 
 
 ---
